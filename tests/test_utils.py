@@ -30,7 +30,7 @@ def test_get_google_sheet_client_file_not_found(mock_getenv, mock_exists):
 @patch("src.utils.Groq")
 @patch("src.utils.os.getenv")
 def test_get_groq_client_success(mock_getenv, mock_groq):
-    mock_getenv.return_value = "gsk_fake_key"
+    mock_getenv.return_value = "my_fake_key"
     client = get_groq_client()
     
     mock_getenv.assert_called_with("GROQ_API_KEY")
