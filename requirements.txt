@@ -1,0 +1,7 @@
+gspread
+pandas
+python-dotenv
+groq
+pytest
+oauth2client
+matplotlib    
