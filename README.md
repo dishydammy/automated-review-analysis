@@ -99,7 +99,7 @@ Follow these steps to run the project from scratch on your local machine.
 Clone the repository and install dependencies:
 
 ```bash
-git clone <your-repo-link>
+git clone automated-review-analysis.git
 cd automated_review_analysis
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
