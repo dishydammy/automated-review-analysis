@@ -34,7 +34,7 @@ def test_get_groq_client_success(mock_getenv, mock_groq):
     client = get_groq_client()
     
     mock_getenv.assert_called_with("GROQ_API_KEY")
-    mock_groq.assert_called_once_with(api_key="gsk_fake_key")
+    mock_groq.assert_called_once_with(api_key="my_fake_key")
     assert client is not None
 
 @patch("src.utils.os.getenv")
